@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gage Moore</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="stars-background"></div>
+
+    <div id="title-container">
+        <h1 id="titlebar">Gage Moore</h1>
+        <div class="background">
+            0                         1                             0                         1
+            1                         0            0                1                         0            0    
+            0                         0            1                0                         0            1
+            1        1                1            0                1        1                1            0
+            1        0                             0                1        0                             0
+            0        1                             1                0        1                             1
+            1        0                                              1        0
+                     0                1                                      0                1
+                     1                0                                      1                0
+        </div>
+    </div>
+
+    <h2>Projects</h2>
+
+    <div class="projects">
+        <div class="project-card" onclick="openPage('https://github.com/nwa444/CapstoneProject')">
+            <h3>Foxtrot</h3>
+            <div class="description">
+                Foxtrot is a competitive fitness app that is compatible with Android
+                and iOS devices. Built using React Native, Node.js, SQL, and Docker.
+            </div>
+            <img src="foxtrot.png" alt="The Foxtrot logo: a clean, stylized red 'F.'">
+        </div>
+
+        <div class="project-card" onclick="openPage('https://github.com/Gage12354/Weather_app')">
+            <h3>Weather App</h3>
+            <div class="description">
+                This web app uses Python's Django framework in tandem with the Open-Meteo API to
+                display the weekly weather forecast.
+            </div>
+            <img src="weather.png" alt="A cartoonish sun icon.">
+        </div>
+
+        <div class="project-card">
+            <h3>Dungeon Clicker</h3>
+            <div class="description" onclick="openPage('https://github.com/Gage12354/Clicker_game')">
+                This Cookie Clicker-inspired game was created using C# in combination with WinForms.
+                Click the giant coin to gain a currency, which can be used to purchase items and
+                upgrades.
+            </div>
+            <img src="coin.png" alt="A cartoonish coin engraved with a skull design.">
+        </div>
+    </div>
+
+    <h2>Skills</h2>
+
+    <div id="skills-row">
+        <div class="orb">
+            <h3>Web</h3>
+            <p>HTML, CSS, Javascript, React Native, Django (Python)</p>
+        </div>
+
+        <div class="orb">
+            <h3>Backend</h3>
+            <p>Python, C++, C#, SQL</p>
+        </div>
+
+        <div class="orb">
+            <h3>Tools</h3>
+            <p>Git/GitHub, Figma, Microsoft Office Suite</p>
+        </div>
+    </div>
+
+    <h2>About Me</h2>
+    
+    <div id="about-me-container">
+        <div id="about-me">
+            <p>     
+                    My name is Gage and I'm a junior software engineer and computer scientist from Southwest Virginia. I graduated Summa Cum Laude from UVA Wise
+                in May 2026, where I led a full-stack development project and worked as a tutor. Some of my skills include data structures & algorithms,
+                human-centered design, and time management. Some of my hobbies include tennis, hiking, and digital animation.
+            </p>
+        </div>
+
+        <img src="me.jpg" alt="Gage Moore">
+    </div>
+
+
+    <footer>
+        <a href="resume.pdf">Resume</a>
+
+        <a href="https://www.linkedin.com/in/canaan-moore-447b2136a">LinkedIn</a>
+
+        <a href="https://github.com/Gage12354">GitHub</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
